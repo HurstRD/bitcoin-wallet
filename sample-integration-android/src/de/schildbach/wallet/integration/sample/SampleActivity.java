@@ -39,11 +39,8 @@ import com.google.protobuf.ByteString;
 
 import de.schildbach.wallet.integration.android.BitcoinIntegration;
 
-/**
- * @author Andreas Schildbach
- */
-public class SampleActivity extends Activity
-{
+
+
 	private static final long AMOUNT = 500000;
 	private static final String[] DONATION_ADDRESSES_MAINNET = { "18CK5k1gajRKKSC7yVSTXT9LUzbheh1XY4", "1PZmMahjbfsTy6DsaRyfStzoWTPppWwDnZ" };
 	private static final String[] DONATION_ADDRESSES_TESTNET = { "mkCLjaXncyw8eSWJBcBtnTgviU85z5PfwS", "mwEacn7pYszzxfgcNaVUzYvzL6ypRJzB6A" };
@@ -52,7 +49,10 @@ public class SampleActivity extends Activity
 
 	private Button donateButton, requestButton;
 	private TextView donateMessage;
-
+/**
+ * @author Andreas Schildbach
+ */
+public class SampleActivity extends Activity{
 	@Override
 	protected void onCreate(final Bundle savedInstanceState)
 	{
